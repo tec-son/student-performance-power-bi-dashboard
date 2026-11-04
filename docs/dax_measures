@@ -1,0 +1,66 @@
+# DAX Measures
+
+All measures are stored in the `Measure` table and use the `Students` table.
+
+
+## Summary
+
+| Measure | Purpose | Result |
+|---|---|---|
+| Total Students | Count of students | 1,000 |
+| Average Final Score | Mean final exam score | 83.5 |
+| Pass Rate | Share of students not graded F | 98.8% |
+| At Risk % | Share with grade D or F | 10.1% |
+| Top Performers % | Share with grade A | 28.4% |
+
+## Measures
+
+### Total Students
+```DAX
+Total Students = COUNTROWS ( Students )
+```
+
+### Average Final Score
+```DAX
+Average Final Score = AVERAGE ( Students[FinalScore] )
+```
+
+### Pass Rate
+```DAX
+Pass Rate =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Students ), Students[FinalGrade] <> "F" ),
+    [Total Students]
+)
+```
+
+### At Risk %
+```DAX
+At Risk % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Students ), Students[FinalGrade] IN { "D", "F" } ),
+    [Total Students]
+)
+```
+
+### Top Performers %
+```DAX
+Top Performers % =
+DIVIDE (
+    CALCULATE ( COUNTROWS ( Students ), Students[FinalGrade] = "A" ),
+    [Total Students]
+)
+```
+
+## Validation
+
+| Check | Calculation | Matches dashboard |
+|---|---|---|
+| At risk | (89 + 12) / 1,000 = 10.1% | ✅ |
+| Top performers | 284 / 1,000 = 28.4% | ✅ |
+| Pass rate | (1,000 − 12) / 1,000 = 98.8% | ✅ |
+
+## Notes
+
+- `DIVIDE` is used instead of `/` to avoid divide-by-zero errors.
+- Measures respond to the Gender and Internet Access slicers through filter context.
