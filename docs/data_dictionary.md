@@ -3,7 +3,6 @@
 **Table:** `Students`  
 **Rows:** 1,000 (one row per student)
 
-> Column names below are my best reading of the dashboard. Match them to the Data view in Power BI.
 
 | Column | Type | Description | Example |
 |---|---|---|---|
