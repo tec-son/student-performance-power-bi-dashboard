@@ -53,15 +53,3 @@ DIVIDE (
 )
 ```
 
-## Validation
-
-| Check | Calculation | Matches dashboard |
-|---|---|---|
-| At risk | (89 + 12) / 1,000 = 10.1% | ✅ |
-| Top performers | 284 / 1,000 = 28.4% | ✅ |
-| Pass rate | (1,000 − 12) / 1,000 = 98.8% | ✅ |
-
-## Notes
-
-- `DIVIDE` is used instead of `/` to avoid divide-by-zero errors.
-- Measures respond to the Gender and Internet Access slicers through filter context.
