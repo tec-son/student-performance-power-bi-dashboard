@@ -6,11 +6,6 @@
 
 **An interactive Power BI dashboard uncovering what drives student academic success.**
 
-![Power BI](https://img.shields.io/badge/Power%20BI-F2C811?logo=powerbi&logoColor=black)
-![DAX](https://img.shields.io/badge/DAX-0078D4)
-![Data Analytics](https://img.shields.io/badge/Data%20Analytics-1E90FF)
-![Status](https://img.shields.io/badge/status-complete-brightgreen)
-![License](https://img.shields.io/badge/license-MIT-blue)
 
 </div>
 
