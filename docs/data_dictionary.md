@@ -4,17 +4,17 @@
 **Rows:** 1,000 (one row per student)
 
 
-| Column | Type | Description | Example |
+| Column | Type | Description | 
 |---|---|---|---|
-| StudentID | Text | Unique student identifier | REPLACE |
+| StudentID | Text | Unique student identifier |
 | Gender | Text | Female / Male | Female |
-| InternetAccess | Text | Whether the student has internet access: Yes / No | Yes |
-| ParentalEducation | Text | Highest parental education: None, High School, Bachelors, Masters, PhD | Masters |
-| StudyTime | Decimal | Average study time (REPLACE unit, e.g. hours per day) | REPLACE |
-| Attendance | Decimal | Attendance rate (REPLACE: percentage) | REPLACE |
-| PreviousGrade | Decimal | Previous grade, scale 0–100 | REPLACE |
-| FinalScore | Decimal | Final exam score, scale 0–100 | REPLACE |
-| FinalGrade | Text | Letter grade: A, B, C, D, F | B |
+| Internet Access | Text | Whether the student has internet access: Yes / No | 
+| Parental Education | Text | Highest parental education: None, High School, Bachelors, Masters, PhD | 
+| Study Time | Decimal | Average study time (REPLACE unit, e.g. hours per day) | 
+| Attendance | Decimal | Attendance rate (REPLACE: percentage) | 
+| Previous Grade | Decimal | Previous grade, scale 0–100 | 
+| Final Score | Decimal | Final exam score, scale 0–100 | 
+| Final Grade | Text | Letter grade: A, B, C, D, F | 
 
 ## Grade Distribution
 
@@ -31,6 +31,6 @@
 
 | Category | Definition |
 |---|---|
-| Pass | FinalGrade is not F |
-| At Risk | FinalGrade is D or F |
-| Top Performer | FinalGrade is A |
+| Pass | Final Grade is not F |
+| At Risk | Final Grade is D or F |
+| Top Performer | Final Grade is A |
