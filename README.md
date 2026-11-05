@@ -95,15 +95,13 @@ student-performance-power-bi-dashboard/
 ├── dashboard/
 │   └── Students_Performance_Dashboard.pbix
 ├── data/
-│   ├── raw/
-│   └── processed/
+│   ├── student_performance_dataset.csv
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── dax_measures.md
 │   ├── insights.md
 │   └── methodology.md
 ├── assets/
-│   ├── banner.png
 │   └── screenshots/
 │       ├── 01_overview.png
 │       ├── 02_dashboard_drivers.png
