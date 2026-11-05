@@ -131,23 +131,6 @@ student-performance-power-bi-dashboard/
 
 ---
 
-## ⚠️ Limitations
-
-- Correlation does not imply causation.
-- Scatter plots show averages and do not control for other variables.
-- The ~2-point spread across parental education groups is small and may not be meaningful.
-- The dataset may not represent all student populations, so findings may not generalise.
-
----
-
-## 🚀 Future Improvements
-
-- Add a regression or correlation analysis to quantify driver strength.
-- Add a table listing at-risk students for early intervention.
-- Add tooltips and drill-through pages.
-- Publish to Power BI Service with a public link.
-
----
 
 ## 👤 Author
 
