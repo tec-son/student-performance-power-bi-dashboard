@@ -120,7 +120,7 @@ student-performance-power-bi-dashboard/
    ```bash
    git clone https://github.com/tec-son/student-performance-power-bi-dashboard.git
    ```
-2. Open `dashboard/Students_Performance_Dashboard.pbix` in **Power BI Desktop**.
+2. Open `dashboard/Students Performance Dashboard.pbix` in **Power BI Desktop**.
 3. If prompted, point the data source to the file in `data/raw/`
    (*Home → Transform data → Data source settings*).
 4. Use the page buttons (Overview, Dashboard Drivers, Demographics & Access) and the **Gender** and **Internet Access** slicers to explore.
