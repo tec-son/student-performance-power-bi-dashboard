@@ -3,17 +3,17 @@
 **Table:** `Students`  
 **Rows:** 1,000 (one row per student)
 
-
-| Column | Type | Description | 
-| StudentID | Text | Unique student identifier |
-| Gender | Text | Female / Male | Female |
-| Internet Access | Text | Whether the student has internet access: Yes / No | 
-| Parental Education | Text | Highest parental education: None, High School, Bachelors, Masters, PhD | 
-| Study Time | Decimal | Average study time (REPLACE unit, e.g. hours per day) | 
-| Attendance | Decimal | Attendance rate (REPLACE: percentage) | 
-| Previous Grade | Decimal | Previous grade, scale 0–100 | 
-| Final Score | Decimal | Final exam score, scale 0–100 | 
-| Final Grade | Text | Letter grade: A, B, C, D, F | 
+| Column | Type | Description |
+|---|---|---|
+| Student ID | Text | Unique student identifier |
+| Gender | Text | Female / Male |
+| Internet Access | Text | Whether the student has internet access: Yes / No |
+| Parental Education | Text | Highest parental education: None, High School, Bachelors, Masters, PhD |
+| Study Time | Decimal | Average study time (hours per day) |
+| Attendance | Decimal | Attendance rate (percentage, 0–100) |
+| Previous Grade | Decimal | Previous grade, scale 0–100 |
+| Final Score | Decimal | Final exam score, scale 0–100 |
+| Final Grade | Text | Letter grade: A, B, C, D, F |
 
 ## Grade Distribution
 
