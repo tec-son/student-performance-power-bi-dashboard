@@ -18,7 +18,7 @@ Identify which factors influence student performance and which students are at r
 |---|---|
 | 1 | Imported the source file |
 | 2 | Checked and set data types |
-| 3 | Checked for nulls and duplicates (REPLACE with what you did) |
+| 3 | Checked for nulls and duplicates |
 | 4 | Renamed columns for clarity |
 | 5 | Loaded to the data model |
 
