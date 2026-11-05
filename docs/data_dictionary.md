@@ -5,7 +5,6 @@
 
 
 | Column | Type | Description | 
-|---|---|---|---|
 | StudentID | Text | Unique student identifier |
 | Gender | Text | Female / Male | Female |
 | Internet Access | Text | Whether the student has internet access: Yes / No | 
